@@ -1,3 +1,9 @@
+# Thanks for checking out my homepage! 
+
+Currently I aim to expand my portfolio in the field of UX, while also keeping up my software engineering skills. The goal is to deploy this app to aws/azure, so I get to refresh my cloud computing memory. 
+Please note that the current iteration is not exactly up to my standards, but fear not. I will add a backend Node.js/ASP.NET to serve the hard coded information such as UnitCards, and probably store the information in postgres. 
+This project will be expanding, the UI will be improved, and more pages added. Hope to see you here again!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

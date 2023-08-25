@@ -1,0 +1,43 @@
+
+.container {
+    display: flex;
+    align-items: stretch; /* or other alignment as needed */
+    height: 100%;
+    padding: 5% 5% 0% 5%;
+  }
+
+.side {
+    flex: 1;
+    background-color: #f0f0f0; /* Set your desired background color */
+  }
+  
+  .left {
+    margin-right: 5%; /* Adjust this margin to control the space */
+  }
+  
+  .right {
+    margin-left: 5%; /* Adjust this margin to control the space */
+  }
+
+  .unit-card-container {
+    display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content:space-evenly;
+     gap: 10px;
+     background-color: #111111;
+    padding: 5% 5% 0% 5%;
+  }
+  
+.unit-card {
+    column-gap: 10px;
+    padding: 2%;
+    overflow: auto;
+    background-color: #9e9eac;
+    flex: 0 1 40%;
+}
+
+.unit-card-thumbnail {
+    max-width: 100%;
+    max-height: 100%;
+}
