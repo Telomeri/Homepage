@@ -6,11 +6,6 @@
     padding: 5% 5% 0% 5%;
   }
 
-.side {
-    flex: 1;
-    background-color: #17181a; /* Set your desired background color */
-  }
-  
   .left {
     margin-right: 5%; /* Adjust this margin to control the space */
   }
@@ -92,9 +87,6 @@
       flex-wrap: wrap;
       justify-content: space-between;
       flex-direction: row;
-    }
-    .unit-card{
-      flex: 0 1 calc(40%-1em);
     }
   }
 .unit-card-thumbnail {
