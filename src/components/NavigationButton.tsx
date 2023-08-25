@@ -1,8 +1,8 @@
 import React from 'react';
 
-interface NavigationBarButton {}
-
-const NavigationBarButton: React.FC<NavigationBarButton> = () => {
+interface NavigationBarButtonInt {}
+//Placeholder
+const NavigationBarButton: React.FC<NavigationBarButtonInt> = () => {
   return (
     <div>
       {}
