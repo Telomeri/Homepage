@@ -18,7 +18,7 @@ const UnitCardContainer: React.FC<UnitCardContainerInt> = () => {
     <div className='container'>
         <div className='side left'></div>
         <div className='unit-card-container'>
-            <UnitCard imageaddress={thesis_image} relatedLinkHeader ={'Nothing here yet'} relatedLink = {'#'} header='Releasing in September 2023' text='The hype behind this is unbelievable, and Aalto University will get another fantastic alumnus. During the thesis I got a chance to conduct an in-person usability study for Arkance Systems Finland, where I assessed the current state of usability of the
+            <UnitCard imageaddress={thesis_image} relatedLinkHeader ={'Nothing here yet'} relatedLink = {'/'} header='Releasing in September 2023' text='The hype behind this is unbelievable, and Aalto University will get another fantastic alumnus. During the thesis I got a chance to conduct an in-person usability study for Arkance Systems Finland, where I assessed the current state of usability of the
             Holixa licencing portal. Based on the qualitative and quantitative results I created a new low fidelity prototype showing the course of improvements the development team should consider.'/>
             <UnitCard imageaddress={home_page} relatedLinkHeader ={'Github Repository'} relatedLink = {"https://github.com/Telomeri/Homepage"} header='Work in Progress' text='A project very much still in the early stages.
             The foundation was designed in Figma, and the initial plan along source code is public. If the current portfolio or the design does not spark joy, fear not as this is just the beginning.'/>
