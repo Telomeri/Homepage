@@ -38,7 +38,7 @@
 }
 
 
-  @media screen and (min-width: 40em) {
+  @media screen and (min-width: 10em) {
 
     .container {
       display: flex;
@@ -58,13 +58,33 @@
     }
   }
 
-  @media screen and (min-width: 60em) {
+  @media screen and (min-width: 52em) {
 
     .container {
       display: flex;
       align-items: wrap; /* or other alignment as needed */
       justify-content:space-between;
       flex-direction: column;
+    }
+    .unit-card-container {
+      display: flex;
+      flex: 0 1 calc(40%-1em);
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+    .unit-card{
+      flex: 0 1 calc(40%-1em);
+    }
+  }
+
+  @media screen and (min-width: 52em) {
+
+    .container {
+      display: flex;
+      align-items: wrap; /* or other alignment as needed */
+      justify-content:space-between;
+      flex-direction: row;
     }
     .unit-card-container {
       display: flex;

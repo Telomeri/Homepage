@@ -7,16 +7,6 @@
   top: 0;
   left: 0;
   fill: #3b4450;
-  width: 50vmax;
-  z-index: -1;
-}
-
-.blob2 {
-  position: absolute;
-  fill: #3b4450;
-  padding-top: 1%;
-  padding-left: 60%;
-  rotate: 20deg;
   width: 40vmax;
   z-index: -1;
 }
