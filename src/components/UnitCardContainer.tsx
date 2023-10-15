@@ -18,8 +18,8 @@ const UnitCardContainer: React.FC<UnitCardContainerInt> = () => {
     <div className='container'>
         <div className='side left'></div>
         <div className='unit-card-container'>
-            <UnitCard imageaddress={thesis_image} relatedLinkHeader ={'Nothing here yet'} relatedLink = {'/'} header='Releasing in September 2023' text='The hype behind this is unbelievable, and Aalto University will get another fantastic alumnus. During the thesis I got a chance to conduct an in-person usability study for Arkance Systems Finland, where I assessed the current state of usability of the
-            Holixa licencing portal. Based on the qualitative and quantitative results I created a new low fidelity prototype showing the course of improvements the development team should consider.'/>
+            <UnitCard imageaddress={thesis_image} relatedLinkHeader ={'Thesis Aaltodoc'} relatedLink = {'https://aaltodoc.aalto.fi/handle/123456789/124080'} header='In Collaboration with Arkance Systems ' text='During the thesis I got a chance to conduct an in-person usability study for Arkance Systems Finland, where I assessed the current state of usability of the
+            Holixa licencing portal. Based on the qualitative and quantitative results I created a new low fidelity prototype showing the course of improvements the development team should consider. For the results, you can check the appendix of the thesis!'/>
             <UnitCard imageaddress={home_page} relatedLinkHeader ={'Github Repository'} relatedLink = {"https://github.com/Telomeri/Homepage"} header='Work in Progress' text='A project very much still in the early stages.
             The foundation was designed in Figma, and the initial plan along source code is public. Ideally this iteration will be accompanied by multiple other pages, which will replace the current card based UI. 
             The data will be stored in a postgres database, backend will either be node.js or asp.net, and hosting service aws/azure. If the current portfolio or the design does not spark joy, fear not as this is just the beginning.'/>
