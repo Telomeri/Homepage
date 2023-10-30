@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='App'>
       <NavigationBar/>
-      <LandingPage name='Lari Haapaniemi' major='Human-Computer Interaction at Aalto University' degree='Almost a Master of Science'/>
+      <LandingPage name='Lari Haapaniemi' major='Human-Computer Interaction at Aalto University' degree='Software Developer and a Master of Science'/>
     </div>
   );
 }
